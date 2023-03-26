@@ -4,14 +4,18 @@
 }
 
 
-nav{
-    background-color: black;
-    font-size: 40px;
-    font-family:'Times New Roman', Times, serif;
-    
-    
-}
-main{
-    background-color: antiquewhite;
-}
 
+
+main{
+    width: 100%;
+    background-color: antiquewhite;
+
+}
+.form{
+    width: 1000px;
+    height: 300px;
+    border: 2px solid black;
+    margin: auto;
+    padding: 40px;
+
+}
