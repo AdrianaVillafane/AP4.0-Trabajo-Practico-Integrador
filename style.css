@@ -5,7 +5,12 @@
 
 
 nav{
-    background-color: #A3CB38;
+    background-color: black;
     font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
     
+    
+}
+main{
+    background-color: antiquewhite;
 }
