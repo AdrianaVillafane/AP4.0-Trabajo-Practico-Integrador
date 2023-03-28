@@ -1,21 +1,26 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
 }
 
-
-
-
-main{
-    width: 100%;
-    background-color: antiquewhite;
-
+main {
+  width: 100%;
 }
-.form{
-    width: 1000px;
-    height: 300px;
-    border: 2px solid black;
-    margin: auto;
-    padding: 40px;
-
+.form {
+  width: 1000px;
+  height: 300px;
+  border: 2px solid black;
+  margin: auto;
+  padding: 40px;
+}
+.encabezado {
+  width: 850px;
+  margin:  auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+.nav{
+    font-size: 1.2em;
 }
