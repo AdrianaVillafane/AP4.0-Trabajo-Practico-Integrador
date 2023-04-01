@@ -4,15 +4,16 @@
   background-color: rgb(244, 199, 141);
 }
 @font-face {
-  font-family:"Boneribbon-Bold" ;
+  font-family: "Boneribbon-Bold";
   src: url("/font/Boneribbon-Bold/Boneribbon\ Bold.ttf");
 }
 
-main {
-  width: 100%;
+.isoTipo {
+  font-family: "Boneribbon-Bold";
 }
-h1{
-  font-family: 'Boneribbon-Bold';
+
+h1 {
+  font-family: "Boneribbon-Bold";
 }
 .form {
   width: 1000px;
@@ -23,11 +24,43 @@ h1{
 }
 .encabezado {
   width: 850px;
-  margin:  auto;
   justify-content: center;
   align-items: center;
-  
 }
-.nav{
-    font-size: 1.2em;
+
+.container {
+  position: fixed;
+  font-size: 1.2em;
+  width: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+}
+p{
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+}
+
+footer{
+  border: 5px solid black;
+border-radius: 30px;
+width: 90%;
+
+}
+
+.boxTalleres{
+  margin-top: 30px;
+  margin: auto;
+  padding-top: 100px;
+  width: 450px;
+  height: 450px;
+  font-size: 1.2em;
+ 
+}
+figure{
+  padding: 20px;
+  
 }
