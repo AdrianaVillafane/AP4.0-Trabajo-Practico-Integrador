@@ -3,6 +3,7 @@
   padding: 0;
   background-color: rgb(244, 199, 141);
 }
+
 @font-face {
   font-family: "Boneribbon-Bold";
   src: url("/font/Boneribbon-Bold/Boneribbon\ Bold.ttf");
@@ -47,7 +48,9 @@ p{
 footer{
   border: 5px solid black;
 border-radius: 30px;
-width: 90%;
+width: 1400px;
+margin: auto;
+display: flex;
 
 }
 
@@ -63,4 +66,7 @@ width: 90%;
 figure{
   padding: 20px;
   
+}
+main{
+  padding: 20px 50px;
 }
