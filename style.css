@@ -32,7 +32,6 @@ h1 {
 .container {
   position: fixed;
   font-size: 1.2em;
-  width: 100vh;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -40,7 +39,7 @@ h1 {
   box-shadow: 8px 8px 8px 8px rgb(248, 182, 125);
   border-radius: 30px;
   border: 3px solid gray;
-  justify-content: center;
+  
 }
 p{
   padding-top: 100px;
@@ -64,6 +63,7 @@ footer{
   border: 3px solid gray;
   box-shadow: 8px 8px 8px 8px rgb(248, 182, 125);
   border-radius: 30px;
+  margin-bottom: 0;
 }
 .boxTalleres{
   margin-top: 30px;
@@ -88,3 +88,37 @@ main{
   width: 50px;
   height:50px ;
 }
+nav{
+  display:grid;
+  grid-template-columns: 1fr, 1fr;
+   position:fixed;
+  top:0;
+  width:100%;
+  }
+  nav .logo{
+    font-size: 3em;
+    font-weight:black;
+    font-family: "Boneribbon-Bold";
+    }
+    nav .barnav{
+      display:inline;
+      grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+      
+      margin-right: 30px;
+           }
+      .redes{
+        display: inline;
+        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+      }
+      nav .barnav div{
+        padding: 10px 20px;
+        }
+        nav .barnav div:hover{
+        cursor: pointer;
+        background:#f2bd67;
+        }
+        .integrantes{
+          margin-top: 150px;
+          
+        }
+       
