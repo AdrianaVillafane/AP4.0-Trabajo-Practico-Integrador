@@ -13,8 +13,9 @@
   font-family: "Boneribbon-Bold";
 }
 
-h1 {
+h1, h3{
   font-family: "Boneribbon-Bold";
+  font-size: 2em;
 }
 .form {
   width: 1000px;
@@ -29,96 +30,84 @@ h1 {
   align-items: center;
 }
 
-.container {
-  position: fixed;
-  font-size: 1.2em;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  top: 0;
-  box-shadow: 8px 8px 8px 8px rgb(248, 182, 125);
-  border-radius: 30px;
-  border: 3px solid gray;
-  
-}
-p{
-  padding-top: 100px;
+p {
+  padding-top: 80px;
   padding-left: 20px;
   padding-right: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
-
-footer{
-
-  padding: 20px;
-  font-family: 'Zen Dots', cursive;
+footer {
+  padding: 15px;
+  font-family: "Zen Dots", cursive;
   font-size: 1.2em;
   text-align: center;
-  color: rgb(4, 48, 50);
+  color: black;
   letter-spacing: 1px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5px;
-  border: 3px solid gray;
-  box-shadow: 8px 8px 8px 8px rgb(248, 182, 125);
-  border-radius: 30px;
+ 
   margin-bottom: 0;
 }
-.boxTalleres{
+.boxTalleres {
   margin-top: 30px;
   margin: auto;
   padding-top: 100px;
   width: 450px;
   height: 450px;
   font-size: 1.2em;
- 
 }
-figure{
-  padding: 20px;
-  
+figure {
+  padding: 10px;
 }
-main{
+main {
   padding: 20px 50px;
 }
-.arrow-icon{
+.arrow-icon {
   position: fixed;
   right: 10px;
   bottom: 10px;
   width: 50px;
-  height:50px ;
+  height: 50px;
 }
-nav{
-  display:grid;
+.nav {
+  display: grid;
   grid-template-columns: 1fr, 1fr;
-   position:fixed;
-  top:0;
-  width:100%;
-  }
-  nav .logo{
-    font-size: 3em;
-    font-weight:black;
-    font-family: "Boneribbon-Bold";
-    }
-    nav .barnav{
-      display:inline;
-      grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-      
-      margin-right: 30px;
-           }
-      .redes{
-        display: inline;
-        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-      }
-      nav .barnav div{
-        padding: 10px 20px;
-        }
-        nav .barnav div:hover{
-        cursor: pointer;
-        background:#f2bd67;
-        }
-        .integrantes{
-          margin-top: 150px;
-          
-        }
-       
+  position: fixed;
+  top: 0;
+}
+nav .logo {
+  font-size: 3em;
+  font-weight: black;
+  font-family: "Boneribbon-Bold";
+}
+nav .barnav {
+  display: inline;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+font-size: 1.5em;
+  margin-right: 30px;
+}
+.redes {
+  display: inline;
+  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+}
+nav .barnav div {
+  padding: 10px 20px;
+}
+nav .barnav div:hover {
+  cursor: pointer;
+  background: #f2bd67;
+}
+.integrantes {
+  margin-top: 150px;
+}
+#home {
+ 
+ box-shadow: 8px 8px 8px 8px rgb(248, 182, 125);
+  border-radius: 30px;
+  border: 3px solid gray;
+  padding: 20px;
+  width: 100%;
+  
+}
