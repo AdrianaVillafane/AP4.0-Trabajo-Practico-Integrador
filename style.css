@@ -109,3 +109,14 @@ nav .barnav div:hover {
   
   
 }
+.p2 {
+  margin: 0;
+  padding: 0;
+}
+.p3 {
+  padding-top: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
