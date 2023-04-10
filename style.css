@@ -93,8 +93,9 @@ font-size: 1.5em;
   display: inline;
   grid-template-columns: 1fr, 1fr, 1fr, 1fr;
 }
-nav .barnav div {
+nav.barnav{
   padding: 10px 20px;
+  background-color: rgb(243, 206, 158);
 }
 nav .barnav div:hover {
   cursor: pointer;
@@ -105,7 +106,10 @@ nav .barnav div:hover {
 }
 #home {
  
-  padding: 20px;
+  padding:20px;
   
   
+}
+#home.container{
+  padding: 15px 0px;
 }
