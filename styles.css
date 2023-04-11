@@ -1,0 +1,21 @@
+#multistep {
+    background-image: url("./pachtwork.jpg");
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#multistep form {
+    background-color: rgb(243, 206, 158);
+    padding: 3rem;
+    box-shadow: 4px 4px 8px;
+    border-radius: 2%;
+    height: 400px 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    
+
+}
