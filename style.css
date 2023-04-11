@@ -2,42 +2,106 @@
   margin: 0;
   padding: 0;
   background-color: rgb(243, 206, 158);
-}
+ }
 
 @font-face {
   font-family: "Boneribbon-Bold";
   src: url("/font/Boneribbon-Bold/Boneribbon\ Bold.ttf");
 }
-
+body{
+  background-color: rgb(243, 206, 158);
+  font-family: "Boneribbon-Bold";
+}
 .isoTipo {
   font-family: "Boneribbon-Bold";
-  font-size: 2em;
+  font-size: 3em;
 }
 
- h3{
-  font-family: "Boneribbon-Bold";
-  font-size: 2em;
-}
-.form {
-  width: 1000px;
-  height: 300px;
-  border: 2px solid black;
-  margin: auto;
-  padding: 40px;
-}
-.encabezado {
-  width: 850px;
+/*formulario Seba*/
+#multistep {
+  background-image: url("img/pachtwork.jpg");
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px 8px;
+  height: 900px;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 20px;
+  position: relative;
+ }
+
+#multistep form {
+  background-color: rgb(243, 206, 158);
+  padding: 3rem;
+  box-shadow: 4px 4px 8px 8px;
+  border-radius: 2%;
+  height: 500px; 
+   width: 600px;
+  margin-top: 150px;
+  margin-right: 300px;
+  position: absolute;
+  left: 300px;
+  
+}
+.col-12{
+width: 1px;
+height: 1px;
+}
+.nav-link{
+  color: black;
+}
+.container{
+ 
+  width: 1000px;
+  display: grid;
+  
+}
+header{
+  background-color: rgb(243, 206, 158)
+}
+/*barra navegacion haeder*/
+.containerNav{
+  height: 3em;
+  background-color: rgb(243, 206, 158)
+
+}
+.navbar{
+  height: 3.5em;
+  font-family: "Boneribbon-Bold";;
+}
+figure {
+  padding: 10px;
+  margin-left: 20px;
+  
+}
+.my-md-3{
+  width: 1300px;
+  padding-top: 40px;
+  align-content: center;
+  margin-left: 20px;
+  line-height: 2;
+
+}
+.boxTalleres{
+align-content: center;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+margin-left: 300px;
+padding-top: 50px;
+font-family: "Boneribbon-Bold";
+}
+h3{
+  font-family: "Boneribbon-Bold";
 }
 
-p {
-  padding-top: 80px;
-  padding-left: 20px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
 
+.arrow-icon {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
 footer {
   padding: 15px;
   font-family: "Zen Dots", cursive;
@@ -48,114 +112,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5px;
- 
-  margin-bottom: 0;
-}
-.boxTalleres {
-  margin-top: 30px;
-  margin: auto;
-  padding-top: 100px;
-  width: 450px;
-  height: 450px;
-  font-size: 1.2em;
-}
-figure {
-  padding: 10px;
-}
-main {
-  padding: 20px 50px;
-}
-.arrow-icon {
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 50px;
-  height: 50px;
-}
-.nav {
-  display: grid;
-  grid-template-columns: 1fr, 1fr;
-  position: fixed;
-  top: 0;
-}
-nav .logo {
-  font-size: 3em;
-  font-weight: black;
-  font-family: "Boneribbon-Bold";
-}
-nav .barnav {
-  display: inline;
-  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-font-size: 1.5em;
-  margin-right: 30px;
-}
-.redes {
-  display: inline;
-  grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-}
-nav.barnav{
-  padding: 10px 20px;
-  background-color: rgb(243, 206, 158);
-}
-nav .barnav div:hover {
-  cursor: pointer;
-  background: #f2bd67;
-}
-.integrantes {
-  margin-top: 150px;
-}
-#home {
- 
-  padding:20px;
-  
-  
-}
-
-.p3 {
-  padding-top: 50px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  margin-bottom: 20px;
-}
-form {
-  margin-bottom: 20px;
-}
-
-#step-2 {
-  display: none;
-}
-
-#summary {
-  width: 300px;
-  height: 200px;
-  border: 4px solid black;
-  border-radius: 10px;
-  padding: 10px;
-  margin: auto;
-}
-div.col-lg-6{
-  width: 600px;
-  display: grid;
-}
-#multistep {
-  background-image: url("img/pachtwork.jpg");
-  height: 1000px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-#multistep form {
-  background-color: rgb(243, 206, 158);
-  padding: 3rem;
-  box-shadow: 4px 4px 8px;
-  border-radius: 2%;
-  height: 400px; 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 400px;
-  
-
+   margin-bottom: 0;
+   font-family: "Boneribbon-Bold";
 }
