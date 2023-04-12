@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/GitHub/AP4.0-Trabajo-Practico-Integrador"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502,
+		"liveServer.settings.multiRootWorkspaceName": "Formulario Reclamo"
+	}
+}
