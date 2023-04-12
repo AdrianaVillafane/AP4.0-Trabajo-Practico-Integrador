@@ -115,3 +115,7 @@ footer {
    margin-bottom: 0;
    font-family: "Boneribbon-Bold";
 }
+div.col-lg-6{
+  width: 500px;
+  display: grid;
+}
