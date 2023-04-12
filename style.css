@@ -119,3 +119,8 @@ div.col-lg-6{
   width: 500px;
   display: grid;
 }
+.integrantes{
+  font-family: "Boneribbon-Bold";
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
