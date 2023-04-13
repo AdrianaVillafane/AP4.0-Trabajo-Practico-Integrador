@@ -77,13 +77,16 @@ figure {
   
 }
 .my-md-3{
-  width: 1300px;
-  padding-top: 40px;
+  
+  padding-top: 10px;
   align-content: center;
-  margin-left: 20px;
+  margin: 20px;
   line-height: 2;
-
 }
+.lista-intro{
+  text-align: left;
+}
+
 .boxTalleres{
 align-content: center;
 display: flex;
@@ -94,6 +97,7 @@ padding-top: 50px;
 font-family: "Boneribbon-Bold";
 }
 h3{
+  padding-top: 30px;
   font-family: "Boneribbon-Bold";
 }
 
@@ -128,6 +132,7 @@ div.col-lg-6{
   padding-bottom: 25px;
 }
 p{
+  padding-top: 30px;
   line-height: 2
 }
 
@@ -150,4 +155,7 @@ p{
   }
 }
 
-
+.introduccion{
+  align-content: center;
+  text-align: center;
+}
