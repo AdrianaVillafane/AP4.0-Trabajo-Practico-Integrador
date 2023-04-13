@@ -55,6 +55,9 @@ height: 1px;
   display: grid;
   
 }
+.containerSeba{
+padding-top: 25px;
+}
 header{
   background-color: rgb(243, 206, 158)
 }
@@ -64,7 +67,7 @@ header{
   background-color: rgb(243, 206, 158)
 
 }
-.navbar{
+#home{
   height: 3.5em;
   font-family: "Boneribbon-Bold";;
 }
