@@ -70,3 +70,5 @@ function handleSubmit() {
 	);
         
 }
+
+console.log("Hola, su reclamo ha sido enviado a Mottai, a la brevedad responderemos." );

@@ -58,7 +58,7 @@ height: 1px;
 header{
   background-color: rgb(243, 206, 158)
 }
-/*barra navegacion haeder*/
+/*barra navegacion header*/
 .containerNav{
   height: 3em;
   background-color: rgb(243, 206, 158)
@@ -124,3 +124,27 @@ div.col-lg-6{
   padding-top: 20px;
   padding-bottom: 25px;
 }
+p{
+  line-height: 2
+}
+
+.form-consulta{
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .formulario {
+      grid-template-columns: 1fr;
+  }
+  .formulario__mensaje,
+  .formulario__grupo-btn-enviar {
+      grid-column: 1;
+  }
+
+  .formulario__btn {
+      width: 100%;
+  }
+}
+
+
