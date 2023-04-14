@@ -53,7 +53,7 @@
               
               </div>
     </header>
-    <main>
+    <main class="talleres">
 <section class="form-consulta"
       <h1>Consultanos</h1>
     
@@ -79,59 +79,58 @@
       </form>
       </section>
       <hr>
-      
       <hr>
       <section class="form-reclamo">
-      <h1>Formulario de Reclamo</h1>
-      <form action="" class="formulario" id="formulario">
-         
-          <div class="formulario__grupo" id="grupo__nombre">
-              <label for="nombre" class="formulario__label">Nombre y Apellido</label>
-              <div class="formulario__grupo-input">
-              <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Juan Perez">
-              <i class="formulario__validacion-estado fas fa-sharp fa-light fa-circle-xmark"></i>
-              </div>
-              <p class="formulario__input-error">Solo letras mayusculas y minusculas</p>
-          </div>
-  
-          <div class="formulario__grupo" id="grupo__email">
-          <label for="email" class="formulario__label">Correo Electrónico</label>
-          <div class="formulario__grupo-input">
-          <input type="email" class="formulario__input" name="email" id="email" placeholder="Example@example.com">
-          <i class="formulario__validacion-estado fas fa-sharp fa-light fa-circle-xmark"></i>
-          </div>
-          <p class="formulario__input-error">El email puede contener letras, numeros, puntos, guiones y guion bajo.</p>
-          </div>
-      
-          <div class="formulario__grupo" id="grupo__telefono">
-          <label for="telefono" class="formulario__label">Teléfono</label>
-          <div class="formulario__grupo-input">
-          <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="543224444">
-          <i class="formulario__validacion-estado fas fa-sharp fa-light fa-circle-xmark"></i>
-          </div>
-          <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
-          </div>
-         <div class="formulario__grupo" id="grupo__reclamo">
-          <label for="reclamo" class="formulario__label">  </div>
-              <select name="opcion " id="opcion ">
-                  <option value="confeccion">Confección</option>
-                  <option value="envio">Envío</option>
-                  <option value="facturacion">Facturación</option>
-                  <option value="otro">Cotización</option>
-              </select>
-              </div></label>
-          <div class="formulario__grupo-input">
-          <input type="text" class="formulario__input" name="reclamo" id="reclamo" placeholder="Escriba texto">
-          <i class="formulario__validacion-estado fas fa-sharp fa-light fa-circle-xmark"></i>
+        <h1>Formulario de Reclamo</h1>
+    <form action="" class="formulario" id="formulario">
+       
+        <div class="formulario__grupo" id="grupo__nombre">
+            <label for="nombre" class="formulario__label">Nombre y Apellido</label>
+            <div class="formulario__grupo-input">
+            <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Juan Perez">
+            <i class="formulario__validacion-estado fas fa-sharp fa-light fa-circle-xmark"></i>
+            </div>
+            <p class="formulario__input-error">Solo letras mayusculas y minusculas</p>
+        </div>
+
+        <div class="formulario__grupo" id="grupo__email">
+        <label for="email" class="formulario__label">Correo Electrónico</label>
+        <div class="formulario__grupo-input">
+        <input type="email" class="formulario__input" name="email" id="email" placeholder="Example@example.com">
+        <i class="formulario__validacion-estado fa-sharp fa-light fa-circle-xmark"></i>
+        </div>
+        <p class="formulario__input-error">El email puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+        </div>
+    
+        <div class="formulario__grupo" id="grupo__telefono">
+        <label for="telefono" class="formulario__label">Teléfono</label>
+        <div class="formulario__grupo-input">
+        <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="543224444">
+        <i class="formulario__validacion-estado fa-sharp fa-light fa-circle-xmark"></i>
+        </div>
+        <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+       <p></p>
+        <select name="opcion " id="opcion "> 
+            <option disabled selected="">Selecione una opción</option>
+            <option value="">Confeccion</option>
+            <option value="">Envio</option>
+            <option value="">facturacion</option>
+            <option value="">cotizacion</option>
+        </select>
+        <p></p>
+    </div>
+       <div class="formulario__grupo" id="grupo__reclamo">
+        <label for="reclamo" class="formulario__label">Reclamo</label>
+        <div class="formulario__grupo-input">
+        <textarea name="reclamo" id="reclamo" rows="5" cols="40" placeholder="Escriba texto"></textarea>
+        </div>
         
-  
-  
-          
-      <div class="formulario__grupo formulario__grupo-btn-enviar">
-      <button type="submit" class="formulario__btn">Enviar</button>
-      <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado a Mottai!</p>
-      </div>
-      </form>
+        </div>
+    <div class="formulario__grupo formulario__grupo-btn-enviar">
+    <button type="submit" class="formulario__btn">Enviar</button>
+    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado a Mottai!</p>
+    </div>
+    </form>
       </section>
     </main>
 
