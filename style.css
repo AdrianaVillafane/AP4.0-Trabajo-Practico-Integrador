@@ -159,3 +159,8 @@ p{
   align-content: center;
   text-align: center;
 }
+
+.card{
+
+  border: 2px solid gray;
+}
