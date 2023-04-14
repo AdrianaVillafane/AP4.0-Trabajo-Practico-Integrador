@@ -121,6 +121,7 @@ footer {
   gap: 5px;
    margin-bottom: 0;
    font-family: "Boneribbon-Bold";
+   
 }
 div.col-lg-6{
   width: 500px;
@@ -139,6 +140,7 @@ p{
 .form-consulta{
   padding-top: 20px;
   padding-left: 100px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 800px) {
@@ -160,16 +162,21 @@ p{
   text-align: center;
 }
 /*adri talleres*/
-.card{
 
-  border: 2px solid gray;
+  
+.list-group{
+  
+  margin-left: 150px;
+  
 }
 
 
 
 /*form-elvira*/
 
-
+.form-reclamo{
+  margin: 20px;
+}
 
 .formulario {
   display: grid;
