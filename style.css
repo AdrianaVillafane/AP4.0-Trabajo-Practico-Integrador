@@ -19,48 +19,29 @@ body{
 
 /*formulario Seba*/
 #multistep {
-  background-image: url("img/pachtwork.jpg");
-  border-radius: 20px;
-  box-shadow: 4px 4px 8px 8px;
-  height: 900px;
+  background-image:url("img/pachtwork.jpg");
+  height: 98vh;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  position: relative;
- }
+  align-items: center;
 
+}
 #multistep form {
   background-color: rgb(243, 206, 158);
-  padding: 3rem;
-  box-shadow: 4px 4px 8px 8px;
+  padding: 1.8rem;
+  box-shadow: 4px 4px 8px;
   border-radius: 2%;
-  height: 500px; 
-   width: 600px;
-  margin-top: 150px;
-  margin-right: 300px;
-  position: absolute;
-  left: 300px;
-  
-}
-.col-12{
-width: 1px;
-height: 1px;
-}
-.nav-link{
-  color: black;
-}
-.container{
  
-  width: 1000px;
-  display: grid;
   
+  
+
 }
+
+
 .containerSeba{
-padding-top: 25px;
+padding-top: 1em;
 }
-header{
-  background-color: rgb(243, 206, 158)
-}
+
 /*barra navegacion header*/
 .containerNav{
   height: 3em;
@@ -166,7 +147,7 @@ p{
   
 .list-group{
   
-  margin-left: 150px;
+  margin-left: 20vh;
   
 }
 
