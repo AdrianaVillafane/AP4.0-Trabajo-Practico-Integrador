@@ -74,9 +74,15 @@ display: flex;
 flex-wrap: wrap;
 align-items: center;
 margin-left: 300px;
-padding-top: 50px;
+margin-top: 10px;
+padding-top: 25px;
 font-family: "Boneribbon-Bold";
+border: 1px solid gray;
+border-radius: 20px;
+width: 90vh;
+
 }
+
 h3{
   padding-top: 30px;
   font-family: "Boneribbon-Bold";
